@@ -411,7 +411,7 @@ node06   NotReady   <none>   30s   v1.13.4
 node07   NotReady   <none>   36s   v1.13.4
 ```
 
-![https://github.com/fandaye/Deploy-Kubernetes/blob/v1.13.4/png/status.png?raw=true]()
+![https://raw.githubusercontent.com/fandaye/Deploy-Kubernetes/v1.13.4/png/status.png]()
 
 **token 查看方法**
 
