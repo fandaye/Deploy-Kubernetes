@@ -401,14 +401,14 @@ kubeadm join 172.16.50.190:6443 --token xoy1bv.tniobqdvl7r70f3j --discovery-toke
 
 ```
 [root@node01 ~]# kubectl get node
-NAME     STATUS     ROLES    AGE   VERSION
-node01   Ready      master   29m   v1.13.4
-node02   Ready      master   15m   v1.13.4
-node03   Ready      master   13m   v1.13.4
-node04   Ready      <none>   19s   v1.13.4
-node05   NotReady   <none>   24s   v1.13.4
-node06   NotReady   <none>   30s   v1.13.4
-node07   NotReady   <none>   36s   v1.13.4
+NAME     STATUS   ROLES    AGE   VERSION
+node01   Ready    master   89m   v1.13.4
+node02   Ready    master   76m   v1.13.4
+node03   Ready    master   74m   v1.13.4
+node04   Ready    <none>   60m   v1.13.4
+node05   Ready    <none>   61m   v1.13.4
+node06   Ready    <none>   61m   v1.13.4
+node07   Ready    <none>   61m   v1.13.4
 ```
 
 ![集群信息](https://github.com/fandaye/Deploy-Kubernetes/blob/v1.13.4/png/status.png)
