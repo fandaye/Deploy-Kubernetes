@@ -77,6 +77,7 @@
   ```
 
 - 导入镜像
+  Docker 部署完之后 执行
 
   ```
   # cd /data/Deploy-Kubernetes/image
