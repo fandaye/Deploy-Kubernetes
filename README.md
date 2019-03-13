@@ -466,3 +466,8 @@ clusterrolebinding.rbac.authorization.k8s.io/kubernetes-dashboard-admin created
 
 建议使用火狐浏览器
 
+![导入证书](https://github.com/fandaye/Deploy-Kubernetes/blob/v1.13.4/png/d1.png)
+
+**控制台**
+
+![控制台](https://github.com/fandaye/Deploy-Kubernetes/blob/v1.13.4/png/d2.png)
