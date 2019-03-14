@@ -450,8 +450,8 @@ clusterrolebinding.rbac.authorization.k8s.io/kubernetes-dashboard-admin created
 **记录Token 用于登录认证**
 
 ```
-[root@node01 ～]# secrets=`kubectl get secrets -n kube-system | grep kubernetes-dashboard-admin | awk '{print $1}'` 
-[root@node01 ~]# kubectl describe secrets/${secrets}  -n kube-system   | grep "token:"
+[root@node01 ~]# kubectl describe secrets/`kubectl get secrets -n kube-system | \
+grep kubernetes-dashboard-admin | awk '{print $1}'`  -n kube-system   | grep "token:"
 ```
 
 **导出证书**
