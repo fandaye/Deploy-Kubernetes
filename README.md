@@ -183,7 +183,7 @@ Documentation=https://github.com/coreos
 
 [Service]
 Type=notify
-WorkingDirectory=/var/lib/etcd/
+# WorkingDirectory=/var/lib/etcd/
 ExecStart=/usr/bin/etcd \
   --advertise-client-urls=https://{{NodeIP}}:2379 \
   --cert-file=/etc/kubernetes/pki/etcd/server.crt \
